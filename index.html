@@ -76,6 +76,44 @@
             display: inline-block;
             margin-bottom: 1rem;
         }
+
+        /* NAVIGATION - Day 1 (Alex)
+           Git Command: git commit -m "Refine navbar labels" */
+        .navbar {
+            background: white;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #0066cc;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-link {
+            color: #333;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            background: #0066cc;
+            color: white;
+        }
     </style>
 </head>
 
@@ -84,6 +122,18 @@
          Created by: Sanya (Project Leader)
          Git Command: git add . && git commit -m "Initial project structure" -->
     <div class="day-marker">Day 0: Initial Setup</div>
+    <!-- NAVIGATION - Day 1 (Alex)
+         Git Command: git commit -m "Refine navbar labels" -->
+    <nav class="navbar">
+        <div class="logo">IT Education</div>
+        <ul class="nav-menu">
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#" class="nav-link">Courses</a></li>
+            <li><a href="#" class="nav-link">Learning Path</a></li>
+            <li><a href="#" class="nav-link">Team</a></li>
+            <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
     <h1>IT Education Website - Git Bootcamp</h1>
     <!-- HERO SECTION - Day 1 (Tom)
          Git Command: git commit -m "Update hero section description" -->
